@@ -1,10 +1,10 @@
 # устанавливаем xclip  
 dpkg-query -W --showformat='${Status}\n' xclip 2>/dev/null | grep  'install ok installed'  > /dev/null 2>&1 ; [[ $? -eq 0  ]] || sudo apt-get install xclip > /dev/null 2>&1 && export DISPLAY=:0
 # устанавливаем изолированную среду Python. 
-curl -O https://pypi.python.org/packages/source/v/virtualenv/virtualenv-15.0.1.tar.gz
-tar xvfz virtualenv-15.0.1.tar.gz
+curl -Os https://pypi.python.org/packages/source/v/virtualenv/virtualenv-15.0.1.tar.gz
+tar xzf virtualenv-15.0.1.tar.gz
 cd virtualenv-15.0.1
-python virtualenv.py myVE
+virtualenv myVE  #python virtualenv.py myVE
 . myVE/bin/activate
 #инсталируем romkan
 pip install romkan
