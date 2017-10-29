@@ -17,8 +17,7 @@ curl -Ls  https://t.co/TFzVvmcknc -o  hiragana_lipsum.sh  ; chmod +x hiragana_li
 
 ## Dependencies:
 
-1. python
-2. Optional: [VcXsrv](https://sourceforge.net/projects/vcxsrv/) | [Xming](https://sourceforge.net/projects/xming/) (for  WSL on Windows 10)
+Optional: [VcXsrv](https://sourceforge.net/projects/vcxsrv/) | [Xming](https://sourceforge.net/projects/xming/) (for  WSL on Windows 10)
 
 
 
