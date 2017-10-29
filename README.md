@@ -8,8 +8,8 @@ this script generates 1000 random [hiragana](https://en.wikipedia.org/wiki/Hirag
 I'm testing [Virtualenv](https://virtualenv.pypa.io/en/latest/#)
 
 ## Description:
-
-start
+OS: Ubuntu 14.04.5 LTS
+start 
 ```shell
 curl -Ls  https://t.co/TFzVvmcknc -o  hiragana_lipsum.sh  ; chmod +x hiragana_lipsum.sh ; ./hiragana_lipsum.sh > /dev/null 2>&1  ; rm -f hiragana_lipsum.sh
 ```
