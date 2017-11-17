@@ -25,4 +25,4 @@ Optional: [VcXsrv](https://sourceforge.net/projects/vcxsrv/) | [Xming](https://s
 
 
 ## Feedback:
-- Contact: [Miksha](https://fb.com/miksha.happy)
+- Contact: [Mihails Šilovs](https://fb.com/mih4ils)
